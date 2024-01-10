@@ -1,0 +1,24 @@
+let saludo = alert("Bienvenido a Wall-E");
+let meta = prompt("Ingresa tu meta del mes : ahorro o inversion ");
+if (meta == "ahorro"){
+    alert("Tu nueva meta del mes es Ahorrar")
+}
+let montoActual = Number(prompt("Ingrese el monto que ya tienes ahorrado"));
+let metaAhorro = Number(prompt("Ingrese el monto que desea ahorrar"));
+let resultado = calculadora(montoActual, metaAhorro);
+    alert(`${montoActual} + ${metaAhorro} = ${resultado}`);
+function sumar(montoActual, metaAhorro) {
+resultado = montoActual + metaAhorro; }
+alert(`${montoActual} + ${metaAhorro} = ${resultado}`);
+
+
+if (meta == "inversion"){
+    alert("Tu nueva meta del mes es Invertir")
+let metaInvertir = Number(prompt("Ingrese el monto que desea invertir"));
+let metaBolsa = (prompt("Ingrese la bolsa a la que desee invertir"));
+let resultado = calculadora(montoActual, metaAhorro);
+    alert(`${montoActual} + ${metaAhorro} = ${resultado}`);
+}
+else {
+    alert("La meta solicitada no es valida")
+}
